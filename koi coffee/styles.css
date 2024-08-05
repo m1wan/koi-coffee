@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2ECBE; /* Màu nền nhẹ hơn */
+    color: #9A3B3B; /* Màu văn bản chính */
+}
+
+header {
+    background-color: #9A3B3B; /* Màu nền đậm cho header */
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E2C799; /* Màu khi hover */
+}
+
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    width: 80%;
+    margin: 2em auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.hidden {
+    display: none;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+.product img {
+    width: 100px;
+    margin-right: 1em;
+}
+
+.product-info h3 {
+    margin: 0;
+    color: #C08261; /* Màu tên sản phẩm */
+}
+
+.product-info p {
+    margin: 0.5em 0;
+    color: #9A3B3B; /* Màu giá sản phẩm */
+}
+
+button {
+    background-color: #C08261; /* Màu nền nút */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #E2C799; /* Màu khi hover */
+}
+
+#cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+    color: #9A3B3B;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #C08261; /* Màu viền */
+}
+
+form button {
+    background-color: #C08261;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #E2C799;
+}
+
+footer {
+    background-color: #9A3B3B; /* Màu nền footer */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer {
+    background-color: #9A3B3B; /* Màu nền footer */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.footer-links div {
+    max-width: 200px;
+}
+
+.footer-links h4 {
+    margin-bottom: 0.5em;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #E2C799; /* Màu khi hover */
+}

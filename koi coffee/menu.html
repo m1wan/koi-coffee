@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Koi Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Koi Coffee"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="product">
+                <img src="images/coffee-latte.jpg" alt="Coffee Latte">
+                <div class="product-info">
+                    <h3>Coffee Latte</h3>
+                    <p>$4.00</p>
+                    <button onclick="addToCart('Coffee Latte', 4.00)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/blackcoffee.jpg" alt="blackcoffee">
+                <div class="product-info">
+                    <h3>Cà phê đen</h3>
+                    <p>$4.00</p>
+                    <button onclick="addToCart('Cà phê đen', 4.00)">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Koi Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
